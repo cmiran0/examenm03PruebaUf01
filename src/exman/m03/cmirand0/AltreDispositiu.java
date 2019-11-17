@@ -18,7 +18,7 @@ public class AltreDispositiu extends Dispositius {
 
     @Override
     public String toString() {
-        return "AltreDispositiu{marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+
+        return "AltreDispositiu{marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+" preu final= "+getPreu_final()+
                 " descripcio='" + descripcio + '\'' +
                 '}';
     }

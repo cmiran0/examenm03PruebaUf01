@@ -47,7 +47,7 @@ public abstract class Dispositius {
         return "Dispositius{" +
                 "marca='" + marca + '\'' +
                 ", model='" + model + '\'' +
-                ", preu_base=" + preu_base +
+                ", preu_base=" + preu_base +", preu final= "+preu_final+
                 '}';
     }
 }

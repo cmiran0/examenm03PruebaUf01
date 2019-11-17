@@ -38,7 +38,7 @@ public class Smartphon extends Dispositius implements Gama {
 
     @Override
     public String toString() {
-        return "Smartphon{ marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+
+        return "Smartphon{ marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+" preu final= "+getPreu_final()+
                 " sistema_operatiu='" + sistema_operatiu + '\'' +
                 ", acelerometre=" + acelerometre +
                 ", gps=" + gps +

@@ -17,7 +17,7 @@ public class Tablet extends Dispositius implements Gama{
 
     @Override
     public String toString() {
-        return "Tablet{marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+
+        return "Tablet{marca= " +getMarca()+" model= "+getModel()+" preu base= "+getPreu_base()+" preu final= "+getPreu_final()+
                 " polsades=" + polsades +
                 '}';
     }
